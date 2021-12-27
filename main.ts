@@ -163,24 +163,29 @@ namespace demandRobot {
         // any button
         //% block="Any"
         Any = -1,
+        
+        //% block=" "
+        Empty1 = -1,
+        //% block=" "
+        Empty2 = -1,
 
-        //IR HANDLE
-        //% block="↑"
-        UP = 0x11,
-        //% block="↓"
-        DOWN = 0x91,
-        //% block="←"
-        LEFT = 0x81,
-        //% block="→"
-        RIGHT = 0xa1,
-        //% block="M1"
-        M1 = 0xe9,
-        //% block="M2"
-        M2 = 0x69,
-        //% block="A"
-        A = 0x21,
-        //% block="B"
-        B = 0x01,
+        // //IR HANDLE
+        // //% block="↑"
+        // UP = 0x11,
+        // //% block="↓"
+        // DOWN = 0x91,
+        // //% block="←"
+        // LEFT = 0x81,
+        // //% block="→"
+        // RIGHT = 0xa1,
+        // //% block="M1"
+        // M1 = 0xe9,
+        // //% block="M2"
+        // M2 = 0x69,
+        // //% block="A"
+        // A = 0x21,
+        // //% block="B"
+        // B = 0x01,
 
         // MINI IR 
         //% block="A"
