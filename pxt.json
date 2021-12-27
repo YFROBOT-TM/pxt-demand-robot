@@ -1,0 +1,26 @@
+{
+    "name": "demandRobot",
+    "version": "0.0.1",
+    "description": "Demand Robot MakeCode Extensions For Micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.1"
+    },
+    "files": [
+        "main.ts",
+        "_locales/zh-cn/demandRobot-strings.json",
+        "_locales/zh-cn/demandRobot-jsdoc-strings.json",
+        "_locales/zh-tw/demandRobot-strings.json",
+        "_locales/zh-tw/demandRobot-jsdoc-strings.json",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
